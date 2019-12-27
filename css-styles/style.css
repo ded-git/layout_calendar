@@ -8,12 +8,13 @@ body {
 
 .calendar {
   margin: 0 auto;
+  padding: 0;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-  width: 800px;
+  width: 709px;
   height: 700px;
+  border: red solid 1px;
 }
 
 .calendar > :first-child {
@@ -21,7 +22,7 @@ body {
   width: 100px;
   height: 100px;
   border: 1px black solid;
-  margin: 0.5px 0.5px 0.5px 606.5px;
+  margin: 0.5px;
   justify-content: flex;
   align-items: center;
   background-color: #eee;
@@ -38,7 +39,35 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(2) {
+.calendar-mon div:first-child {
+  margin-left: 0.5px;
+}
+
+.calendar-tue div:first-child {
+  margin-left: 101.5px;
+}
+
+.calendar-wed div:first-child {
+  margin-left: 202.5px;
+}
+
+.calendar-thu div:first-child {
+  margin-left: 303.5px;
+}
+
+.calendar-fri div:first-child {
+  margin-left: 404.5px;
+}
+
+.calendar-sut div:first-child {
+  margin-left: 505.5px;
+}
+
+.calendar-sun div:first-child {
+  margin-left: 606.5px;
+}
+
+.calendar-2 > :nth-child(-n+2) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -50,7 +79,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(2):hover {
+.calendar-2 > :nth-child(-n+2):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -61,7 +90,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(3) {
+.calendar-3 > :nth-child(-n+3) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -73,7 +102,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(3):hover {
+.calendar-3 > :nth-child(-n+3):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -84,7 +113,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(4) {
+.calendar-4 > :nth-child(-n+4) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -96,7 +125,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(4):hover {
+.calendar-4 > :nth-child(-n+4):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -107,7 +136,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(5) {
+.calendar-5 > :nth-child(-n+5) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -119,7 +148,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(5):hover {
+.calendar-5 > :nth-child(-n+5):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -130,7 +159,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(6) {
+.calendar-6 > :nth-child(-n+6) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -142,7 +171,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(6):hover {
+.calendar-6 > :nth-child(-n+6):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -153,7 +182,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(7) {
+.calendar-7 > :nth-child(-n+7) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -165,7 +194,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(7):hover {
+.calendar-7 > :nth-child(-n+7):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -176,7 +205,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(8) {
+.calendar-8 > :nth-child(-n+8) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -188,7 +217,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(8):hover {
+.calendar-8 > :nth-child(-n+8):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -199,7 +228,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(9) {
+.calendar-9 > :nth-child(-n+9) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -211,7 +240,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(9):hover {
+.calendar-9 > :nth-child(-n+9):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -222,7 +251,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(10) {
+.calendar-10 > :nth-child(-n+10) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -234,7 +263,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(10):hover {
+.calendar-10 > :nth-child(-n+10):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -245,7 +274,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(11) {
+.calendar-11 > :nth-child(-n+11) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -257,7 +286,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(11):hover {
+.calendar-11 > :nth-child(-n+11):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -268,7 +297,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(12) {
+.calendar-12 > :nth-child(-n+12) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -280,7 +309,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(12):hover {
+.calendar-12 > :nth-child(-n+12):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -291,7 +320,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(13) {
+.calendar-13 > :nth-child(-n+13) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -303,7 +332,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(13):hover {
+.calendar-13 > :nth-child(-n+13):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -314,7 +343,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(14) {
+.calendar-14 > :nth-child(-n+14) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -326,7 +355,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(14):hover {
+.calendar-14 > :nth-child(-n+14):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -337,7 +366,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(15) {
+.calendar-15 > :nth-child(-n+15) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -349,7 +378,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(15):hover {
+.calendar-15 > :nth-child(-n+15):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -360,7 +389,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(16) {
+.calendar-16 > :nth-child(-n+16) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -372,7 +401,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(16):hover {
+.calendar-16 > :nth-child(-n+16):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -383,7 +412,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(17) {
+.calendar-17 > :nth-child(-n+17) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -395,7 +424,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(17):hover {
+.calendar-17 > :nth-child(-n+17):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -406,7 +435,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(18) {
+.calendar-18 > :nth-child(-n+18) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -418,7 +447,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(18):hover {
+.calendar-18 > :nth-child(-n+18):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -429,7 +458,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(19) {
+.calendar-19 > :nth-child(-n+19) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -441,7 +470,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(19):hover {
+.calendar-19 > :nth-child(-n+19):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -452,7 +481,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(20) {
+.calendar-20 > :nth-child(-n+20) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -464,7 +493,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(20):hover {
+.calendar-20 > :nth-child(-n+20):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -475,7 +504,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(21) {
+.calendar-21 > :nth-child(-n+21) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -487,7 +516,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(21):hover {
+.calendar-21 > :nth-child(-n+21):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -498,7 +527,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(22) {
+.calendar-22 > :nth-child(-n+22) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -510,7 +539,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(22):hover {
+.calendar-22 > :nth-child(-n+22):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -521,7 +550,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(23) {
+.calendar-23 > :nth-child(-n+23) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -533,7 +562,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(23):hover {
+.calendar-23 > :nth-child(-n+23):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -544,7 +573,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(24) {
+.calendar-24 > :nth-child(-n+24) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -556,7 +585,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(24):hover {
+.calendar-24 > :nth-child(-n+24):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -567,7 +596,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(25) {
+.calendar-25 > :nth-child(-n+25) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -579,7 +608,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(25):hover {
+.calendar-25 > :nth-child(-n+25):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -590,7 +619,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(26) {
+.calendar-26 > :nth-child(-n+26) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -602,7 +631,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(26):hover {
+.calendar-26 > :nth-child(-n+26):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -613,7 +642,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(27) {
+.calendar-27 > :nth-child(-n+27) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -625,7 +654,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(27):hover {
+.calendar-27 > :nth-child(-n+27):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -636,7 +665,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(28) {
+.calendar-28 > :nth-child(-n+28) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -648,7 +677,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(28):hover {
+.calendar-28 > :nth-child(-n+28):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -659,7 +688,7 @@ body {
   margin: auto;
 }
 
-.calendar > :nth-child(29) {
+.calendar-29 > :nth-child(-n+29) {
   display: flex;
   margin: 0.5px;
   width: 100px;
@@ -671,7 +700,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 30px;
 }
-.calendar > :nth-child(29):hover {
+.calendar-29 > :nth-child(-n+29):hover {
   background-color: pink;
   cursor: pointer;
 }
@@ -680,6 +709,68 @@ body {
   content: "29";
   text-align: center;
   margin: auto;
+}
+
+.calendar-30 > :nth-child(-n+30) {
+  display: flex;
+  margin: 0.5px;
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+.calendar-30 > :nth-child(-n+30):hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+.calendar > :nth-child(30)::before {
+  content: "30";
+  text-align: center;
+  margin: auto;
+}
+
+.calendar-31 > :nth-child(-n+31) {
+  display: flex;
+  margin: 0.5px;
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+.calendar-31 > :nth-child(-n+31):hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+.calendar > :nth-child(31)::before {
+  content: "31";
+  text-align: center;
+  margin: auto;
+}
+
+.calendar-28 :nth-child(28) ~ div {
+  display: none;
+}
+
+.calendar-29 :nth-child(29) ~ div {
+  display: none;
+}
+
+.calendar-30 :nth-child(30) ~ div {
+  display: none;
+}
+
+.calendar-31 :nth-child(31) ~ div {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

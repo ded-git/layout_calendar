@@ -1,3 +1,11 @@
+$days:
+  "mon" 0.5,
+  "tue" 101.5,
+  "wed" 202.5,
+  "thu" 303.5,
+  "fri" 404.5,
+  "sut" 505.5,
+  "sun" 606.5;
 
 body {
   margin: 0;
@@ -9,12 +17,13 @@ body {
 
 .calendar {
   margin: 0 auto;
+  padding: 0;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-  width: 800px;
+  width: 709px;
   height: 700px;
+  border: red solid 1px;
 }
 
 .calendar > :first-child {
@@ -22,7 +31,7 @@ body {
   width: 100px;
   height: 100px;
   border: 1px black solid;
-  margin: 0.5px 0.5px 0.5px 606.5px;
+  margin: 0.5px;
   justify-content: flex;
   align-items: center;
   background-color: #eee;
@@ -39,8 +48,16 @@ body {
   }
 }
 
-@for $i from 2 through 29 {
-  .calendar > :nth-child(#{$i}) {
+@each $day, $size in $days {
+  .calendar-#{$day} {
+    div:first-child {
+      margin-left: #{$size}px;
+    }
+  }
+}
+
+@for $i from 2 through 31 {
+  .calendar-#{$i} > :nth-child(-n+#{$i}) {
     display: flex;
     margin: 0.5px;
     width: 100px;
@@ -62,5 +79,12 @@ body {
     content: "#{$i}";
     text-align: center;
     margin: auto;
+  }
+}
+@for $i from 28 through 31 {
+  .calendar-#{$i} {
+    :nth-child(#{$i}) ~ div {
+      display: none;
+    }
   }
 }
