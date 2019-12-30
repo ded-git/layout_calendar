@@ -1,9 +1,24 @@
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 30px; }
 
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+.calendar > * {
+  margin: 0.5px;
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee; }
 
 .calendar {
   margin: 0 auto;
@@ -31,9 +46,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #eee;
-    font-family: Arial, sans-serif;
-    font-size: 30px; }
+    background-color: #eee; }
     .calendar :first-child:first-child::before {
       content: "1";
       text-align: center;
@@ -63,20 +76,7 @@ body {
 .calendar-2 > :nth-child(-n+2) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-2 > :nth-child(-n+2):hover {
     background-color: pink;
     cursor: pointer;
@@ -93,20 +93,7 @@ body {
 .calendar-3 > :nth-child(-n+3) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-3 > :nth-child(-n+3):hover {
     background-color: pink;
     cursor: pointer;
@@ -123,20 +110,7 @@ body {
 .calendar-4 > :nth-child(-n+4) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-4 > :nth-child(-n+4):hover {
     background-color: pink;
     cursor: pointer;
@@ -153,20 +127,7 @@ body {
 .calendar-5 > :nth-child(-n+5) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-5 > :nth-child(-n+5):hover {
     background-color: pink;
     cursor: pointer;
@@ -183,20 +144,7 @@ body {
 .calendar-6 > :nth-child(-n+6) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-6 > :nth-child(-n+6):hover {
     background-color: pink;
     cursor: pointer;
@@ -213,20 +161,7 @@ body {
 .calendar-7 > :nth-child(-n+7) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-7 > :nth-child(-n+7):hover {
     background-color: pink;
     cursor: pointer;
@@ -243,20 +178,7 @@ body {
 .calendar-8 > :nth-child(-n+8) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-8 > :nth-child(-n+8):hover {
     background-color: pink;
     cursor: pointer;
@@ -273,20 +195,7 @@ body {
 .calendar-9 > :nth-child(-n+9) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-9 > :nth-child(-n+9):hover {
     background-color: pink;
     cursor: pointer;
@@ -303,20 +212,7 @@ body {
 .calendar-10 > :nth-child(-n+10) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-10 > :nth-child(-n+10):hover {
     background-color: pink;
     cursor: pointer;
@@ -333,20 +229,7 @@ body {
 .calendar-11 > :nth-child(-n+11) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-11 > :nth-child(-n+11):hover {
     background-color: pink;
     cursor: pointer;
@@ -363,20 +246,7 @@ body {
 .calendar-12 > :nth-child(-n+12) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-12 > :nth-child(-n+12):hover {
     background-color: pink;
     cursor: pointer;
@@ -393,20 +263,7 @@ body {
 .calendar-13 > :nth-child(-n+13) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-13 > :nth-child(-n+13):hover {
     background-color: pink;
     cursor: pointer;
@@ -423,20 +280,7 @@ body {
 .calendar-14 > :nth-child(-n+14) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-14 > :nth-child(-n+14):hover {
     background-color: pink;
     cursor: pointer;
@@ -453,20 +297,7 @@ body {
 .calendar-15 > :nth-child(-n+15) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-15 > :nth-child(-n+15):hover {
     background-color: pink;
     cursor: pointer;
@@ -483,20 +314,7 @@ body {
 .calendar-16 > :nth-child(-n+16) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-16 > :nth-child(-n+16):hover {
     background-color: pink;
     cursor: pointer;
@@ -513,20 +331,7 @@ body {
 .calendar-17 > :nth-child(-n+17) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-17 > :nth-child(-n+17):hover {
     background-color: pink;
     cursor: pointer;
@@ -543,20 +348,7 @@ body {
 .calendar-18 > :nth-child(-n+18) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-18 > :nth-child(-n+18):hover {
     background-color: pink;
     cursor: pointer;
@@ -573,20 +365,7 @@ body {
 .calendar-19 > :nth-child(-n+19) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-19 > :nth-child(-n+19):hover {
     background-color: pink;
     cursor: pointer;
@@ -603,20 +382,7 @@ body {
 .calendar-20 > :nth-child(-n+20) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-20 > :nth-child(-n+20):hover {
     background-color: pink;
     cursor: pointer;
@@ -633,20 +399,7 @@ body {
 .calendar-21 > :nth-child(-n+21) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-21 > :nth-child(-n+21):hover {
     background-color: pink;
     cursor: pointer;
@@ -663,20 +416,7 @@ body {
 .calendar-22 > :nth-child(-n+22) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-22 > :nth-child(-n+22):hover {
     background-color: pink;
     cursor: pointer;
@@ -693,20 +433,7 @@ body {
 .calendar-23 > :nth-child(-n+23) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-23 > :nth-child(-n+23):hover {
     background-color: pink;
     cursor: pointer;
@@ -723,20 +450,7 @@ body {
 .calendar-24 > :nth-child(-n+24) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-24 > :nth-child(-n+24):hover {
     background-color: pink;
     cursor: pointer;
@@ -753,20 +467,7 @@ body {
 .calendar-25 > :nth-child(-n+25) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-25 > :nth-child(-n+25):hover {
     background-color: pink;
     cursor: pointer;
@@ -783,20 +484,7 @@ body {
 .calendar-26 > :nth-child(-n+26) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-26 > :nth-child(-n+26):hover {
     background-color: pink;
     cursor: pointer;
@@ -813,20 +501,7 @@ body {
 .calendar-27 > :nth-child(-n+27) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-27 > :nth-child(-n+27):hover {
     background-color: pink;
     cursor: pointer;
@@ -843,20 +518,7 @@ body {
 .calendar-28 > :nth-child(-n+28) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-28 > :nth-child(-n+28):hover {
     background-color: pink;
     cursor: pointer;
@@ -873,20 +535,7 @@ body {
 .calendar-29 > :nth-child(-n+29) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-29 > :nth-child(-n+29):hover {
     background-color: pink;
     cursor: pointer;
@@ -903,20 +552,7 @@ body {
 .calendar-30 > :nth-child(-n+30) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-30 > :nth-child(-n+30):hover {
     background-color: pink;
     cursor: pointer;
@@ -933,20 +569,7 @@ body {
 .calendar-31 > :nth-child(-n+31) {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin: 0.5px;
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #eee;
-  font-family: Arial, sans-serif;
-  font-size: 30px; }
+  display: flex; }
   .calendar-31 > :nth-child(-n+31):hover {
     background-color: pink;
     cursor: pointer;
